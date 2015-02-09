@@ -7,7 +7,7 @@ def odd_next(n)
 end
 
 def next_value(n)
-	n % 2 == 0 ? even_sequence(n) : odd_sequence(n)
+	n % 2 == 0 ? even_next(n) : odd_next(n)
 end
 
 def collatz(n)
