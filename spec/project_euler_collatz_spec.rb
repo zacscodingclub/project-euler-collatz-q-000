@@ -36,7 +36,7 @@ describe '#collatz(n)' do
 	end
 end
 
-describe 'longest_collatz' do
+describe '#longest_collatz' do
 	it 'returns the starting number under one million that produces the longest sequence' do
 		expect(longest_collatz).to eq(837799)
 	end
