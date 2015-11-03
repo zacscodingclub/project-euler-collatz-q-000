@@ -1,8 +1,4 @@
----
-tags: euler, problems
-languages: ruby
-resources: 
----
+
 # Project Euler Collatz
 
 ## Collatz Problem
@@ -22,6 +18,7 @@ It can be seen that this sequence (starting at 13 and finishing at 1) contains 1
 - Write a method `next_value(n)` that returns the next value in the sequence for any (integer) input `n`
 - Write a method `collatz(n)` that returns the Collatz sequence from n to 1, in an array
 - Write a method `longest_collatz` that returns the starting number under one million that returns the longest sequence
+- Run `learn` until you get all of the RSpec tests to pass.
 
 ## Source
 - [Project Euler](https://projecteuler.net/) - [Problem 14](https://projecteuler.net/problem=14)
